@@ -36,6 +36,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/start" />
-
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="87dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img"
+        app:layout_constraintTop_toTopOf="@+id/img"
+        app:srcCompat="@drawable/picture"
+        app:layout_constraintHorizontal_chainStyle="spread"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
